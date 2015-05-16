@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="ui" namespace="/ui" extends="struts-default">
+		<action name="uiTagAction_ui" class="cn.itcast.ui.UiTagAction" method="ui">
+			<result name="ui">/ui/ui.jsp</result>
+		</action>
+	</package>
+</struts>
